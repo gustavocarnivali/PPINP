@@ -1,7 +1,7 @@
 # PPINP
 Protein Protein Interaction Network Pipeline
 
-PPINP finds new connections between two different species.
+PPINP finds new connections between two different species.\n
 This pipeline executes all programs needed for this process.
 Nucleotide sequence of two species in fasta file format is required for pipeline functionality. Examples of inputs can be found in the input folder of this pipeline as 1.fa and 2.fa.
 Other entries in fasta format can be obtained from websites such as: https://www.ncbi.nlm.nih.gov/
