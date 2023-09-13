@@ -52,7 +52,7 @@ or
 - **graph.fa:** vertices or proteins found in the graph with their nucleotides.  
 - **score.txt:** protein connections found in the graph with its score.  
 - **outputsignalp.txt:** SignalP output with the name and location of the proteins found.  
-- **outputtargetp.txt:** Output from TargetP with the name and location of the proteins found.  
+- **outputtargetp.txt:** TargetP output with the name and location of the proteins found.  
 - **outputtmhmm.txt:** TMHMM output with the name and location of the proteins found.
 
 
