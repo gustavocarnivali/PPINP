@@ -53,4 +53,7 @@ or
 - **score.txt:** protein connections found in the graph with its score.  
 - **outputsignalp.txt:** SignalP output with the name and location of the proteins found.  
 - **outputtargetp.txt:** Output from TargetP with the name and location of the proteins found.  
-- **outputtmhmm.txt:** TMHMM output with the name and location of the proteins found.  
+- **outputtmhmm.txt:** TMHMM output with the name and location of the proteins found.
+
+
+### The manufactured code is available here. Example entries and programs used can be obtained from their respective websites or from the download link........
