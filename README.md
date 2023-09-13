@@ -31,24 +31,24 @@ Use:
       Par5 should assume the name of the chosen database protein names file.  
       Par6 must assume the number of threads chosen  
 
-   For Par1=2
-      Par2 must assume the name of the first incoming FASTA.
-      Par3 must assume the name of the second incoming FASTA.
-      Par4 must assume the name of the chosen database protein connections file.
-      Par5 must assume the name of the first BLAST output file.
-      Par6 should take the name of the second BLAST output file.
-      Par7 must assume the number of threads chosen
+   For Par1=2  
+      Par2 must assume the name of the first incoming FASTA.  
+      Par3 must assume the name of the second incoming FASTA.  
+      Par4 must assume the name of the chosen database protein connections file.  
+      Par5 must assume the name of the first BLAST output file.  
+      Par6 should take the name of the second BLAST output file.  
+      Par7 must assume the number of threads chosen  
 
 
-Examples:
-   ./ppinp.sh 1 1.fa 2.fa connections.txt proteins.fa 2
-      or
-   ./ppinp.sh 2 1.fa 2.fa connections.txt s_1_string.out s_2_string.out 2
+Examples:  
+   ./ppinp.sh 1 1.fa 2.fa connections.txt proteins.fa 2  
+      or  
+   ./ppinp.sh 2 1.fa 2.fa connections.txt s_1_string.out s_2_string.out 2  
 
 
-Outputs: (all output files are in output folder)
-   graph.fa: vertices or proteins found in the graph with their nucleotides.
-   score.txt: protein connections found in the graph with its score.
-   outputsignalp.txt: SignalP output with the name and location of the proteins found.
-   outputtargetp.txt: Output from TargetP with the name and location of the proteins found.
-   outputtmhmm.txt: TMHMM output with the name and location of the proteins found.
+Outputs: (all output files are in output folder)  
+   graph.fa: vertices or proteins found in the graph with their nucleotides.  
+   score.txt: protein connections found in the graph with its score.  
+   outputsignalp.txt: SignalP output with the name and location of the proteins found.  
+   outputtargetp.txt: Output from TargetP with the name and location of the proteins found.  
+   outputtmhmm.txt: TMHMM output with the name and location of the proteins found.  
