@@ -1,4 +1,4 @@
-# PPINP
+## PPINP
 Protein Protein Interaction Network Pipeline
 
 PPINP finds new connections between two different species.  
