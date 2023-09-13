@@ -42,14 +42,15 @@ Par7 must assume the number of threads chosen
 
 
 ## Examples:  
-   ./ppinp.sh 1 1.fa 2.fa connections.txt proteins.fa 2  
-      or  
-   ./ppinp.sh 2 1.fa 2.fa connections.txt s_1_string.out s_2_string.out 2  
+      ./ppinp.sh 1 1.fa 2.fa connections.txt proteins.fa 2  
+or
+
+      ./ppinp.sh 2 1.fa 2.fa connections.txt s_1_string.out s_2_string.out 2  
 
 
 ## Outputs: (all output files are in output folder)  
-   graph.fa: vertices or proteins found in the graph with their nucleotides.  
-   score.txt: protein connections found in the graph with its score.  
-   outputsignalp.txt: SignalP output with the name and location of the proteins found.  
-   outputtargetp.txt: Output from TargetP with the name and location of the proteins found.  
-   outputtmhmm.txt: TMHMM output with the name and location of the proteins found.  
+- graph.fa: vertices or proteins found in the graph with their nucleotides.  
+- score.txt: protein connections found in the graph with its score.  
+- outputsignalp.txt: SignalP output with the name and location of the proteins found.  
+- outputtargetp.txt: Output from TargetP with the name and location of the proteins found.  
+- outputtmhmm.txt: TMHMM output with the name and location of the proteins found.  
